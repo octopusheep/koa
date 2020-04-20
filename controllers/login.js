@@ -114,6 +114,7 @@ var register_island = async (ctx, next) => {
         island_start: register_island_start,
         island_end: register_island_end,
         island_sn: register_island_sn,
+	island_num: '0',
     });
     console.log('created island: ' + JSON.stringify(island));
 
